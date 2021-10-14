@@ -12,17 +12,20 @@ header{
     background-color: black;
     text-align: end;
 }
-.navbar{
-    height: 60px;
-}
-.cc-btn-accedere{
-    height: 40px;
-    border-radius: 15px;
-}
-.cc-btn-search{
-    height: 40px;
+.cc-btn-b{
     border: none;
 }
+.cc-btn-c{
+    color: white;
+    border-radius: 20px;
+}
+.fa-chevron-down{
+    font-size: 10px;
+}
+.link-now{
+    margin-left: 300px;
+}
+
 .header-bottom .logo-page{
     width: 90px;
     background-color: green;
