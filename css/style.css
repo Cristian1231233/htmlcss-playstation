@@ -86,9 +86,11 @@ img{
 }
 .row-play{
     display: flex;
-    
 }
 .row-play .bord{
+    border-bottom: 1px solid white;
+}
+.row-play .bord:hover{
     border-bottom: 1px solid blue;
 }
 .box-play{
@@ -130,9 +132,15 @@ img{
     text-align: center;
 }
 .container-5 .row .box{
-
     background-color: orange;
 }
+.container-5 .experience, .container-5 .text{
+    color: gray;
+}
+.container-5 .cc-scopri{
+    border-radius: 20px;
+}
+
 .section-4{
     min-height: 400px;
     background-color: #BEBCBB;
@@ -144,6 +152,13 @@ img{
 .container-6 .logo{
     width: 400px;
 }
+.container-6 .cc-btn-esplora{
+    color: #0B5ED7;
+    background-color: #D9DADC;
+    border-radius: 15px;
+    border: none;
+}
+
 .container-7 .titolo{
     text-align: center;
 }
@@ -166,11 +181,20 @@ img{
 .container-8 .text{
     color: gray;
 }
+.container-8 .cc-btn-play-now{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+}
 .container-9{
     text-align: center;
 }
 .container-9 .box{
     background-color: green;
+}
+.container-9 .social{
+    width: 60%;
 }
 .section-6{
     background-color: #00439C;
