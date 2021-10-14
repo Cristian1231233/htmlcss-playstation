@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 header{
+    position: fixed;
+    width: 100%;
     height: 90px;
 }
 .head-top{
@@ -11,6 +13,7 @@ header{
     color: white;
     background-color: black;
     text-align: end;
+    line-height: 30px;
 }
 .cc-btn-b{
     border: none;
@@ -192,10 +195,10 @@ img{
 }
 .container-9 .box{
     background-color: green;
+    cursor: pointer;
 }
-.container-9 .social{
-    width: 60%;
-}
+
+
 .section-6{
     background-color: #00439C;
 }
