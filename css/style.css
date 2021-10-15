@@ -21,13 +21,21 @@ header{
 .cc-btn-c{
     color: white;
     border-radius: 20px;
+    background-color: grey;
+    border-color: grey;
 }
+.cc-btn-c:hover{
+    background-color: grey;
+    border-color: grey;
+}
+
 .fa-chevron-down{
     font-size: 10px;
 }
 .link-now{
     margin-left: 300px;
 }
+
 .link-btn{
     height: 64px;
     line-height: 64px;
@@ -95,8 +103,11 @@ header{
 .container-2{
     margin-top: 30px;
 }
-.container-2 .col-margin, .container-2 .col-margine{
+.container-2 .col-margin{
     margin-top: 20px;
+}
+.container-2 .col-margine{
+    margin-top: 18px;
 }
 .container-2 .col-margin{
     transition: margin-top .4s;
