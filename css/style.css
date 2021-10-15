@@ -61,7 +61,7 @@ header{
 .container-1 .btn-pad .cc-primo-btn:hover{
     background-color: #CD3D0E;
     border-color: #CD3D0E;
-    transform: scale(.9);
+    transform: scale(.95);
 }
 .container-1{
     padding-top: 300px;
@@ -78,7 +78,7 @@ header{
     border-radius: 10px;
 }
 .container-2 .row .border-box:hover .box{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 .container-2 .row .border-box:hover{
     border: 2px solid blue;
@@ -180,7 +180,7 @@ img{
     border: 1px solid #CD3D0F;
 }
 .container-3 .contain-btn-avventura:hover .cc-btn-avventura{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 .container-3 .cc-btn-avventura{
     color: white;
@@ -220,7 +220,7 @@ img{
     transition: transform 1s;
 }
 .container-5 .cc-scopri:hover{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 .container-5 .move{
     width: 118.7px;
@@ -248,7 +248,7 @@ img{
     transition: transform 1s;
 }
 .container-6 .cc-btn-esplora:hover{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 .container-6 .cc-btn-plus{
     width: 206px;
@@ -283,7 +283,7 @@ img{
     border-color: white;
 }
 .container-8 .cc-btn-play-now:hover{
-    transform: scale(.9);
+    transform: scale(.97);
 }
 .container-8 .cc-btn-play-now{
     transition: transform 1s;
