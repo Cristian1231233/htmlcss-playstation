@@ -104,9 +104,7 @@ header{
 .container-2 .row .col-margin:hover{
     margin-top: 10px;
 }
-.container-2 .row .sollevare:hover{
-    margin-top: 3px;
-}
+
 .container-2 .box1{
     background-image: url('../img/jumbo-bg.png');
 }
@@ -176,6 +174,20 @@ img{
 .container-3 .testo{
     padding-top: 40px;
 }
+.container-3 .contain-btn-avventura{
+    width: 108.7px;
+    border-radius: 20px;
+    border: 1px solid #CD3D0F;
+}
+.container-3 .contain-btn-avventura:hover .cc-btn-avventura{
+    transform: scale(.9);
+}
+.container-3 .cc-btn-avventura{
+    color: white;
+    background-color: #CD3D0F;
+    border-radius: 20px;
+    transition: transform 1s;
+}
 .section-3{
     min-height: 500px;
     background-color: #1F1F1F;
@@ -231,10 +243,18 @@ img{
 .container-6 .cc-btn-esplora{
     color: #0B5ED7;
     background-color: #D9DADC;
-    border-radius: 15px;
+    border-radius: 20px;
     border: none;
+    transition: transform 1s;
 }
-
+.container-6 .cc-btn-esplora:hover{
+    transform: scale(.9);
+}
+.container-6 .cc-btn-plus{
+    width: 206px;
+    border: 1px solid #D9DADC;
+    border-radius: 20px;
+}
 
 .container-7 .titolo{
     text-align: center;
@@ -261,10 +281,12 @@ img{
     background-color: white;
     border-radius: 20px;
     border-color: white;
-    transition: transform 1s;
 }
 .container-8 .cc-btn-play-now:hover{
     transform: scale(.9);
+}
+.container-8 .cc-btn-play-now{
+    transition: transform 1s;
 }
 .container-8 .contain-btn{
     width: 214.1px;
