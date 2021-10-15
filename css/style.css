@@ -28,7 +28,15 @@ header{
 .link-now{
     margin-left: 300px;
 }
-
+.link-btn{
+    height: 64px;
+    line-height: 64px;
+    border-bottom: 2px solid #F8F9FA;
+    transition: border-bottom 1s;
+}
+.link-btn:hover{
+    border-bottom: 2px solid black;
+}
 .header-bottom .logo-page{
     width: 90px;
     background-color: green;
@@ -42,12 +50,11 @@ header{
     background-position: center;
 }
 .container-1 .btn-pad{
-    width: 118px;
+    width: 117.9px;
     border: 2px solid #CD3D0E;
-    border-radius: 20px;
+    border-radius: 22px;
 }
 .container-1 .btn-pad .cc-primo-btn{
-    width: 100%;
     color: white;
     transition: transform 1s;
 }
@@ -65,13 +72,6 @@ header{
     background-color: #CD3D0F;
     border-color: #CD3D0F;
 }
-.container-full{
-    width: 90%;
-    margin: 0 auto;
-}
-.container-2 .row .col-6:hover{
-
-}
 
 .container-2 .row .border-box{
     border: 2px solid white;
@@ -79,18 +79,17 @@ header{
 }
 .container-2 .row .border-box:hover .box{
     transform: scale(.9);
-    
 }
 .container-2 .row .border-box:hover{
-    
     border: 2px solid blue;
+    border-radius: 16px;
 }
 
 .container-2 .row .box{
-    height: 65px;
+    height: 75px;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 13px;
     transition: transform 1s;
 }
 .container-2{
@@ -119,6 +118,13 @@ header{
 }
 .container-play .titolo{
     text-align: center;
+}
+.container-play .text-blue{
+    color: blue;
+    font-size: 13px;
+}
+.gray{
+    color: grey;
 }
 .container-play .info-image{
     display: flex;
@@ -177,6 +183,9 @@ img{
 .container-4{
     color: white;
 }
+.container-4 .giochi-font{
+    font-size: 18px;
+}
 .row-giochi .box{
     background-color: orange;
     border-radius: 15px;
@@ -196,7 +205,17 @@ img{
 }
 .container-5 .cc-scopri{
     border-radius: 20px;
+    transition: transform 1s;
 }
+.container-5 .cc-scopri:hover{
+    transform: scale(.9);
+}
+.container-5 .move{
+    width: 118.7px;
+    border-radius: 21px;
+    border: 2px solid #0B5ED7;
+}
+
 
 .section-4{
     min-height: 400px;
@@ -216,12 +235,11 @@ img{
     border: none;
 }
 
+
 .container-7 .titolo{
     text-align: center;
 }
-.container-7 .row .box{
-    background-color: red;
-}
+
 .section-5{
     background-color: #161C3B;
     background-image: url(../img/ps-now-april-featured-image-block.png);
@@ -236,13 +254,22 @@ img{
     width: 400px;
 }
 .container-8 .text{
-    color: gray;
+    color: white;
 }
 .container-8 .cc-btn-play-now{
     color: black;
     background-color: white;
     border-radius: 20px;
     border-color: white;
+    transition: transform 1s;
+}
+.container-8 .cc-btn-play-now:hover{
+    transform: scale(.9);
+}
+.container-8 .contain-btn{
+    width: 214.1px;
+    border-radius: 21px;
+    border: 2px solid white;
 }
 .container-9{
     text-align: center;
