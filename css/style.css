@@ -33,11 +33,28 @@ header{
     width: 90px;
     background-color: green;
 }
+.link-color:hover{
+    color: blue;
+}
 .section-1{
     height: 600px;
     background-image: url('../img/returnal-listing-thumb-01-ps5.jpg');
-    
     background-position: center;
+}
+.container-1 .btn-pad{
+    width: 118px;
+    border: 2px solid #CD3D0E;
+    border-radius: 20px;
+}
+.container-1 .btn-pad .cc-primo-btn{
+    width: 100%;
+    color: white;
+    transition: transform 1s;
+}
+.container-1 .btn-pad .cc-primo-btn:hover{
+    background-color: #CD3D0E;
+    border-color: #CD3D0E;
+    transform: scale(.9);
 }
 .container-1{
     padding-top: 300px;
@@ -52,16 +69,49 @@ header{
     width: 90%;
     margin: 0 auto;
 }
-.container-2{
-    height: 90px;
+.container-2 .row .col-6:hover{
+
 }
+
+.container-2 .row .border-box{
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.container-2 .row .border-box:hover .box{
+    transform: scale(.9);
+    
+}
+.container-2 .row .border-box:hover{
+    
+    border: 2px solid blue;
+}
+
 .container-2 .row .box{
     height: 65px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    transition: transform 1s;
 }
-.container-2 .box1, .container-2 .box3, .container-2 .box5{
+.container-2{
+    margin-top: 30px;
+}
+.container-2 .col-margin, .container-2 .col-margine{
+    margin-top: 20px;
+}
+.container-2 .col-margin{
+    transition: margin-top .4s;
+}
+.container-2 .row .col-margin:hover{
+    margin-top: 10px;
+}
+.container-2 .row .sollevare:hover{
+    margin-top: 3px;
+}
+.container-2 .box1{
+    background-image: url('../img/jumbo-bg.png');
+}
+.container-2 .box3, .container-2 .box5{
     background-image: url('../img/jumbo-bg.png');
 }
 .container-2 .box2, .container-2 .box4, .container-2 .box6{
@@ -96,8 +146,12 @@ img{
 .row-play .bord:hover{
     border-bottom: 1px solid blue;
 }
-.box-play{
-    
+.bord{
+    opacity: .6;
+    transition: opacity 1s;
+}
+.bord:hover{
+    opacity: 1;
 }
 .section-2{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
